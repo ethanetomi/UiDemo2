@@ -18,6 +18,7 @@ struct ContentView: View {
                 Text("Las Vegas Eiffel Tower")
                     .font(.title)
                     .fontWeight(.bold)
+                Spacer()
                 Image(systemName: "star.fill")
                 Image(systemName: "star.fill")
                 Image(systemName: "star.fill")
