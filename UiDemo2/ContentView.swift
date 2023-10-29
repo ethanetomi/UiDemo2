@@ -22,13 +22,15 @@ struct ContentView: View {
                 VStack{
                     HStack{
                         Image(systemName: "star.fill")
+                            
                         Image(systemName: "star.fill")
                         Image(systemName: "star.fill")
                         Image(systemName: "star.fill")
                         Image(systemName: "star.leadinghalf.fill")
                         
                     }
-                    
+                    .foregroundColor(.yellow)
+                    .font(.caption)
                     Text("(Reviews  424)")
                 }
             
