@@ -19,12 +19,21 @@ struct ContentView: View {
                     .font(.title)
                     .fontWeight(.bold)
                 Spacer()
-                Image(systemName: "star.fill")
-                Image(systemName: "star.fill")
-                Image(systemName: "star.fill")
-                Image(systemName: "star.fill")
-                Image(systemName: "star.leadinghalf.fill")
+                VStack{
+                    HStack{
+                        Image(systemName: "star.fill")
+                        Image(systemName: "star.fill")
+                        Image(systemName: "star.fill")
+                        Image(systemName: "star.fill")
+                        Image(systemName: "star.leadinghalf.fill")
+                        
+                    }
+                    
+                    Text("(Reviews  424)")
+                }
+            
             }
+            
             
             Text("Come visit the Las Vegas Eiffel Tower for fun and games.")
             
