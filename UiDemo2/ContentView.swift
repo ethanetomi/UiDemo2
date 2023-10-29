@@ -29,17 +29,32 @@ struct ContentView: View {
                         Image(systemName: "star.leadinghalf.fill")
                         
                     }
-                    .foregroundColor(.yellow)
-                    .font(.caption)
-                    Text("(Reviews  424)")
+                    
+                    Text("(Reviews  4024)")
                 }
-            
+                .foregroundColor(.yellow)
+                .font(.caption)
             }
             
             
             Text("Come visit the Las Vegas Eiffel Tower for fun and games.")
+            HStack{
+                Spacer()
+                Image(systemName: "binoculars.fill")
+                Image(systemName: "fork.knife")
+            }
+            .foregroundColor(.gray)
+            .font(.caption)
+            
             
         }
+        .padding()
+        .background(Rectangle()
+            .foregroundColor(.gray)
+            .cornerRadius(15)
+            .shadow(radius: 15)
+        )
+        .padding()
         
     }
 }
